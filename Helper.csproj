@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Helpers</Title>
+    <Authors>MuhammadSufyanMalik</Authors>
+    <Company>MalikSoft</Company>
+    <Product>Helpers</Product>
+    <Description>Linq and File Helpers</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Results" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
